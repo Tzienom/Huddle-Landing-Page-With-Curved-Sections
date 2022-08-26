@@ -2,7 +2,6 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta http-equiv="UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="queries/queries.css">
@@ -49,8 +48,8 @@
                         <div class="row">
                             <div class="col col-1">
                                 <img src="images/icon-communities.svg" alt="#" aria-hidden="true" class="mockup__img">
-                                <p><span class="figures dark-cyan">1.4k+</span></p>
-                                <p class="figure__text">Communities Formed</p>
+                                <h2><span class="figures dark-cyan">1.4k+</span></h2>
+                                <h2 class="figure__text">Communities Formed</h2>
                             </div>
                             
                             <div class="col col-2 mg-7-0">
@@ -187,8 +186,13 @@
                     </p>
                     
                     <form>
-                        <input type="email" name="user-email" id="email" required="required">
-                        <input type="submit" value="Subscribe" id="submit">
+                        <label for="email">
+                            <input type="email" name="user-email" id="email" required="required">
+                        </label>
+                        
+                        <label for="submit">
+                            <input type="submit" value="Subscribe" id="submit">   
+                        </label>
                     </form>
                 </div>
                 
