@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap');
+
+:root {
+    --Pink: hsl(322, 100%, 66%);
+    --Light-Pink: hsl(321, 100%, 78%);
+    --Light-Red: hsl(0, 100%, 63%);
+    --Very-Dark-Cyan: hsl(192, 100%, 9%);
+    --Very-Pale-Blue: hsl(207, 100%, 98%);
+}
+
+/* GENERAL */
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 1.125rem 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.container {
+    padding: 0 1em;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+img { max-width: 100%; }
+
+h1, h2, h3 { font-family: 'Poppins'; }
+
+p {
+    margin-bottom: 1em;
+    line-height: 1.6;
+}
+
+a { text-decoration: none; }
+
+#try__it:hover { 
+    border-color: var(--Light-Pink);
+    color: var(--Light-Pink);
+}
+.get__started:hover, 
+#submit:hover { background: var(--Light-Pink); }
+
+.get__started {
+    display: inline-block;
+    background: var(--Pink);
+    color: #fff;
+    padding: .9em 3em;
+    border-radius: 50px;
+    margin: 2em 0 7em;
+    font-weight: 600;
+    box-shadow: 1px 2px 5px 1px hsla(0, 0%, 0%, .3);
+}
+
+.capitalize { text-transform: capitalize; }
+
+.uppercase { text-transform: uppercase; }
+
+.dark-cyan { color: var(--Very-Dark-Cyan); }
+
+.mg-btm-1 { margin-bottom: 1em; }
+
+.mg-btm-7 { margin-bottom: 7em; }
+
+.mg-top-1 { margin-top: 1em; }
+
+.mg-7-0 { margin: 7em 0; }
+
+.mg-5-0 { margin: 5em 0; }
+
+.mg-3-0 { margin: 3em 0; }
+
+#grow__together .row,
+#your__users .row,
+footer .row {
+    display: flex;
+    flex-direction: column;
+}
+
+.order-1 { order: 1; }
+.order-2 { order: 2; }
+
+
+/* HEADER */
+
+nav {
+    margin-bottom: 7em;
+    padding: 2em 0;
+}
+
+nav .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#nav__figure {
+    width: 40%;
+    text-align: left;
+}
+
+#try__it {
+    border: 1px solid var(--Pink);
+    color: var(--Pink);
+    padding: .2em 1.5em;
+    border-radius: 50px;
+}
+
+
+/* MOCKUP SECTION */
+
+.mockup__figure { margin-bottom: 7em; }
+
+.mockup__img {
+    display: inline-block;
+    margin-left: -6.2em;
+}
+
+.figures { font: 700 3.5rem 'Open Sans'; }
+
+.figure__text { color: hsla(0, 0%, 0%, .5); }
+
+
+/* GROW TOGETHER */
+
+.grow-bg-top {
+    background: url("../images/bg-section-top-mobile-1.svg") no-repeat;
+    background-size: cover;
+    height: 150px;
+}
+
+.grow-bg-bottom {
+    background: url("../images/bg-section-bottom-mobile-1.svg") no-repeat;
+    background-size: contain;
+    height: 150px;
+}
+
+#grow__together {
+    background: var(--Very-Pale-Blue);
+    padding: 2em 0;
+}
+
+
+/* FLOWING CONVO */
+
+#flowing__convo { margin-bottom: 13em; }
+
+
+/* YOUR USERS */
+
+.users-bg-top {
+    background: url("../images/bg-section-top-mobile-2.svg") no-repeat;
+    background-size: cover;
+    height: 120px;
+}
+
+.users-bg-bottom {
+    background: url("../images/bg-section-bottom-mobile-2.svg") no-repeat;
+    background-size: contain;
+    height: 150px;
+}
+
+#your__users {
+    background: var(--Very-Pale-Blue);
+    padding: 2em 0;
+}
+
+
+/* FOOTER */
+
+.footer-bg {
+    background: url("../images/bg-footer-top-mobile.svg") no-repeat;
+    background-size: cover;
+    height: 60px;
+}
+
+footer {
+    background: var(--Very-Dark-Cyan);
+    color: #fff;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-align: left;
+    font-weight: 600;
+}
+
+footer a {
+    color: #fff;
+    font-weight: 400;
+}
+
+#footer__figure {
+    margin-bottom: .7em;
+    text-align: left;
+}
+
+form { margin: 2em 0 5em; }
+
+input {
+    border: 0;
+    outline: 0;
+    display: block;
+    width: 100%;
+    padding: .7em 1em;
+    border-radius: 5px;
+    font: 1.125rem 'Open Sans', sans-serif;
+    margin-top: 1em;
+}
+
+#submit {
+    width: 50%;
+    margin-left: auto;
+    background: var(--Pink);
+    color: #fff;
+    font-weight: 600;
+}
+
+#submit { cursor: pointer; }
+
+.img-icon { margin-right: 1em; }
+
+ion-icon { font-size: 2rem; }
+
+.icon + .icon { margin-left: .7em; }
+
+.fb:hover { color: hsl(221, 44%, 41%); }
+
+.twitter:hover { color: hsl(197, 100%, 47%); }
+
+.ig:hover { color: hsl(207, 42%, 43%); }

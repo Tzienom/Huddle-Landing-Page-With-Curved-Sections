@@ -1,0 +1,116 @@
+@media(min-width: 578px) {
+    
+    .grow-bg-top { 
+        background: url("../images/bg-section-top-desktop-1.svg") no-repeat; 
+        background-size: cover;
+    }
+    
+    .grow-bg-bottom { 
+        background: url("../images/bg-section-bottom-desktop-1.svg") no-repeat; 
+        background-size: cover;
+    }
+
+    .users-bg-top {
+        background: url("../images/bg-section-top-desktop-2.svg") no-repeat;
+        background-size: cover;
+        height: 150px;
+    }
+
+    .users-bg-bottom { 
+        background: url("../images/bg-section-bottom-desktop-2.svg") no-repeat; 
+        background-size: cover;
+    }
+    
+    .footer-bg {
+        background: url("../images/bg-footer-top-desktop.svg") no-repeat;
+        background-size: cover;
+        height: 69.9px;
+    }
+}
+
+
+
+@media(min-width: 689px) {
+    
+    .footer-bg {
+        background: url("../images/bg-footer-top-desktop.svg") no-repeat;
+        background-size: cover;
+        height: 174px;
+    }
+}
+
+
+
+@media(min-width: 700px) {
+    
+    body { font-size: 1.3125rem; }
+    
+    .container {
+        padding: 0;
+        width: 80%;
+        max-width: 1440px;
+    }
+    
+    .row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .col-1, .col-2 { width: 47%; }
+    
+    h1 { font-size: 3.375rem; }
+    
+    h2 { font-size: 2.8125rem; }
+    
+    h3 { font-size: 2.25rem; }
+    
+    #grow__together .row,
+    #your__users .row,
+    footer .row {
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+    }
+    
+    #flowing__convo { text-align: left; }
+    
+    .order-1 { order: 2; }
+    .order-2 { order: 1; }
+    
+    
+    /* HEADER */
+    
+    .hero__text p {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    
+    /* MOCKUP SECTION */
+    
+    .figures { font-size: 5.625rem; }
+    
+    
+    /* FOOTER */
+    
+    footer { background: var(--Very-Dark-Cyan); }
+    
+    footer .container { background: none; }
+    
+    footer .row { align-items: flex-start; }
+    
+    #footer__figure { margin-bottom: 1em; }
+        
+    form { margin: 0; }
+    
+    input { display: inline-block; }
+    
+    #email { width: 65%; }
+    
+    #submit { width: 30%; margin-left: 4%; }
+    
+    .personal__contact { margin: 0 0 4em;}
+    
+}
