@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-huddle-landing-page-with-curved-sections-YBuF2JjU2e](https://www.frontendmentor.io/solutions/responsive-huddle-landing-page-with-curved-sections-YBuF2JjU2e)
+- Live Site URL: [https://tzienom-huddle-curved-sections.netlify.app/](https://tzienom-huddle-curved-sections.netlify.app/)
 
 ## My process
 
